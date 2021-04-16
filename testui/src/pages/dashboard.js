@@ -94,8 +94,13 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="box_2">
-            <DemoDualAxes2/>
+              <div style={{marginRight:15}}>
+              <DemoDualAxes2/>
+              </div>
+              <div>
               <DemoDualAxes/>
+                </div>
+            
             </div>
             <div className="box_3">
               <text style={{fontWeight:"bold", fontSize:"20px",}}>Income Summary</text>
