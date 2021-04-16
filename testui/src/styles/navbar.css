@@ -1,0 +1,37 @@
+@import '~antd/dist/antd.css';
+
+nav {
+display: flex;
+flex-direction:row;
+padding-left: 36px;
+padding-top: 24px;
+padding-bottom: 34px;
+background-color: #ffffff
+}
+
+/* .logo{
+   margin-right: 80px;
+} */
+
+.rightnav{
+    display: flex;
+  margin-left: auto;
+   
+}
+
+.bell{
+    display: flex;
+}
+
+.bell .badge {
+    position: absolute;
+    padding: 1px 5px 0px 5px;
+    border-radius: 50%;
+    background-color: #713380;
+     margin-left: 20px;
+   
+  }
+
+   .profile_face{
+      padding-right: 10px;
+  } 

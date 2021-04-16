@@ -1,0 +1,115 @@
+@import '~antd/dist/antd.css';
+
+  .ant-breadcrumb a{
+    color: #ffffff;
+  }
+
+.ant-breadcrumb-link{
+  color: #ffffff;
+}
+
+.ant-breadcrumb-separator{
+  color: #ffffff;
+
+}
+
+  .box_1{
+    background-color: #ffffff;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+  }
+
+  .filter{
+    display: flex;
+    margin-left: auto;
+    color: #848282;
+  }
+
+  .filter text{
+    margin-right: 19px;
+  }
+
+  .box_2{
+    background-color: #ffffff;
+  }
+
+  .box_3{
+    background-color: #ffffff;
+    margin-top: 39px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+  }
+
+  
+  .box_5{
+    background-color: #ffffff;
+    margin-bottom: 34px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+  }
+
+  .box_6{
+    background-color: #ffffff;
+    margin-bottom: 51px;
+  }
+
+  .box_7{
+    background-color: #ffffff;
+    margin-bottom: 31px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+  }
+
+  .box_8{
+    background-color: #ffffff;
+    margin-bottom: 69px;
+  }
+
+  .box_9{
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+  }
+
+  .box_10{
+    background-color: #ffffff;
+    margin-bottom: 61px;
+  }
+
+  .box_11{
+    background-color: #ffffff;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+    padding-top: 19px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+  }
+
+  .box_12{
+    background-color: #ffffff;
+  }

@@ -1,0 +1,36 @@
+@import '~antd/dist/antd.css';
+
+.box_4{
+    
+    margin-bottom: 47px;
+  }
+
+  .income_summary1{
+    background-color: #ffffff;
+    padding: 44px;
+    margin-right: 18px;
+margin-bottom: 11px;
+  }
+
+  .income_summary2{
+    background-color: #ffffff;
+    padding-left: 44px;
+    margin-bottom: 11px;
+  }
+
+  .income_summary3{
+    background-color: #ffffff;
+    padding: 44px;
+    margin-right: 18px;
+    margin-top: -70px;
+  }
+
+  .income_summary4{
+    background-color: #ffffff;
+    padding: 44px;
+    
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+  }
