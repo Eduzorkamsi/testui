@@ -1,5 +1,12 @@
 @import '~antd/dist/antd.css';
 
+ .vl{
+  border-left: 2px solid white;
+  height: 65px;
+  
+
+} 
+
   .ant-breadcrumb a{
     color: #ffffff;
   }
@@ -11,6 +18,13 @@
 .ant-breadcrumb-separator{
   color: #ffffff;
 
+}
+
+.bread_box{
+  background-color: #ffffff;
+  padding-left: 40px;
+  margin-top: 22px;
+  margin-left: 22px;
 }
 
   .box_1{
@@ -79,7 +93,7 @@
   }
 
   .box_8{
-    background-color: #ffffff;
+    
     margin-bottom: 69px;
   }
 
@@ -95,7 +109,7 @@
   }
 
   .box_10{
-    background-color: #ffffff;
+   
     margin-bottom: 61px;
   }
 
@@ -110,6 +124,4 @@
     padding-right: 30px;
   }
 
-  .box_12{
-    background-color: #ffffff;
-  }
+ 

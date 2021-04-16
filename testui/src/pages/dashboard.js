@@ -5,6 +5,10 @@ import DashIcon from "../icons/dash_icon.png";
 import Filter from "../components/filter";
 import Cardbox4 from "../components/cardbox4";
 import "../styles/dashboard.css";
+import Cardbox6 from "../components/cardbox6";
+import Cardbox8 from "../components/cardbox8";
+import Cardbox10 from "../components/cardbox10";
+import Cardbox12 from "../components/cardbox12";
 
 // import AreaChart from "../components/AreaChart";
 
@@ -37,13 +41,15 @@ const Dashboard = () => {
                 color: "#ffffff",
                 padding:"25px",
                 fontSize:"21px",
-                fontWeight:400
+                fontWeight:"300",
+                display: "flex",
+                flexDirection: "row"
               }}
             >
-              {/* <div className="vl">
-                <img src={Divider} style={{width:"5px"}}/>
-              </div> */}
-              Manager
+               <div className="vl">
+               <text style={{marginLeft: 10}}>Manager</text>
+              </div> 
+              
             </Menu.Item>
             <Menu.Item
               key="2"
@@ -55,6 +61,7 @@ const Dashboard = () => {
           </Menu>
         </Sider>
         <Layout style={{ padding: "0 24px 24px", }}>
+          <div className="bread_box">
           <Breadcrumb
             style={{
               margin: "16px 0",
@@ -67,6 +74,7 @@ const Dashboard = () => {
             <Breadcrumb.Item href="">Home</Breadcrumb.Item>
             <Breadcrumb.Item>Dashboard</Breadcrumb.Item>
           </Breadcrumb>
+          </div>
           <Content
             className="site-layout-background"
             style={{
@@ -105,7 +113,9 @@ const Dashboard = () => {
                 <Filter />
               </div>
             </div>
-            <div className="box_6">6</div>
+            <div>
+              <Cardbox6/>
+            </div>
             <div className="box_7">
               {" "}
               <text style={{fontWeight:"bold", fontSize:"20px",}}>Appointment Statistics</text>
@@ -114,7 +124,9 @@ const Dashboard = () => {
                 <Filter />
               </div>
             </div>
-            <div className="box_8">8</div>
+            <div>
+              <Cardbox8/>
+            </div>
             <div className="box_9">
               {" "}
               <text style={{fontWeight:"bold", fontSize:"20px",}}>Patient Statistics</text>
@@ -123,7 +135,9 @@ const Dashboard = () => {
                 <Filter />
               </div>
             </div>
-            <div className="box_10">10</div>
+            <div >
+              <Cardbox10/>
+            </div>
             <div className="box_11">
               {" "}
               <text style={{fontWeight:"bold", fontSize:"20px",}}>Staff Summary</text>
@@ -132,7 +146,9 @@ const Dashboard = () => {
                 <Filter />
               </div>
             </div>
-            <div className="box_12">12</div>
+            <div>
+              <Cardbox12/>
+            </div>
           </Content>
         </Layout>
       </Layout>
