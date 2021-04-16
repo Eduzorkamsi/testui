@@ -50,6 +50,8 @@
 
   .box_2{
     background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
   }
 
   .box_3{
@@ -124,4 +126,6 @@
     padding-right: 30px;
   }
 
- 
+ /* .G2Plot{
+   width: 500px;
+ } */

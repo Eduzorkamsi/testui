@@ -9,6 +9,8 @@ import Cardbox6 from "../components/cardbox6";
 import Cardbox8 from "../components/cardbox8";
 import Cardbox10 from "../components/cardbox10";
 import Cardbox12 from "../components/cardbox12";
+import DemoDualAxes from "../components/AreaChart";
+import DemoDualAxes2 from "../components/areachart2";
 
 // import AreaChart from "../components/AreaChart";
 
@@ -92,7 +94,8 @@ const Dashboard = () => {
               </div>
             </div>
             <div className="box_2">
-              {/* <AreaChart/> */}
+            <DemoDualAxes2/>
+              <DemoDualAxes/>
             </div>
             <div className="box_3">
               <text style={{fontWeight:"bold", fontSize:"20px",}}>Income Summary</text>
