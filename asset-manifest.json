@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/testui/static/css/main.a4e7f34d.chunk.css",
+    "main.js": "/testui/static/js/main.071c5424.chunk.js",
+    "main.js.map": "/testui/static/js/main.071c5424.chunk.js.map",
+    "runtime-main.js": "/testui/static/js/runtime-main.eb4b2820.js",
+    "runtime-main.js.map": "/testui/static/js/runtime-main.eb4b2820.js.map",
+    "static/css/2.558413a2.chunk.css": "/testui/static/css/2.558413a2.chunk.css",
+    "static/js/2.54971380.chunk.js": "/testui/static/js/2.54971380.chunk.js",
+    "static/js/2.54971380.chunk.js.map": "/testui/static/js/2.54971380.chunk.js.map",
+    "static/js/3.18528379.chunk.js": "/testui/static/js/3.18528379.chunk.js",
+    "static/js/3.18528379.chunk.js.map": "/testui/static/js/3.18528379.chunk.js.map",
+    "index.html": "/testui/index.html",
+    "static/css/2.558413a2.chunk.css.map": "/testui/static/css/2.558413a2.chunk.css.map",
+    "static/css/main.a4e7f34d.chunk.css.map": "/testui/static/css/main.a4e7f34d.chunk.css.map",
+    "static/js/2.54971380.chunk.js.LICENSE.txt": "/testui/static/js/2.54971380.chunk.js.LICENSE.txt",
+    "static/media/TeshLogo.2c2093fa.png": "/testui/static/media/TeshLogo.2c2093fa.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb4b2820.js",
+    "static/css/2.558413a2.chunk.css",
+    "static/js/2.54971380.chunk.js",
+    "static/css/main.a4e7f34d.chunk.css",
+    "static/js/main.071c5424.chunk.js"
+  ]
+}
