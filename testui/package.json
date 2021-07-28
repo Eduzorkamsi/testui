@@ -1,5 +1,5 @@
 {
-  "homepage": "http://eduzorkamsi.github.io/testui",
+  "homepage": "https://eduzorkamsi.github.io/testui",
   "name": "testui",
   "version": "0.1.0",
   "private": true,
@@ -17,9 +17,9 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
