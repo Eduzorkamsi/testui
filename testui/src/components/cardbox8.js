@@ -11,28 +11,28 @@ const Cardbox8 = () => {
     <div className="box_8">
         <Card style={{width: 252, marginRight: 17}}classname="expense_summary1">
 <div style={{marginBottom: 41}} className="top">
-    <img src={Appointments}/>
+    <img alt="" src={Appointments}/>
     <text style={{marginLeft: 136, fontWeight:"bold"}}>6</text>
 </div>
 <text style={{fontWeight:"bold"}}>Appointments</text>
         </Card>
         <Card style={{width: 252, marginRight: 17}} classname="expense_summary2">
 <div style={{marginBottom: 41}} className="top">
-    <img src={Aappointments}/>
+    <img alt="" src={Aappointments}/>
     <text style={{marginLeft: 136, fontWeight:"bold"}}>5</text>
 </div>
 <text  style={{marginTop: 41, fontWeight:"bold"}}>Attended Appointments</text>
         </Card>
         <Card style={{width: 252, marginRight: 17}} classname="expense_summary3">
 <div style={{marginBottom: 41}} className="top">
-    <img src={Uappointments}/>
+    <img alt="" src={Uappointments}/>
     <text style={{marginLeft: 136, fontWeight:"bold"}}>5</text>
 </div>
 <text  style={{marginTop: 41, fontWeight:"bold"}}>Unattended Appointments</text>
         </Card>
         <Card style={{width: 252}} classname="expense_summary4">
 <div style={{marginBottom: 41}} className="top">
-    <img src={Cappointments}/>
+    <img alt="" src={Cappointments}/>
     <text style={{marginLeft: 136, fontWeight:"bold"}}>5</text>
 </div>
 <text style={{fontWeight: "bold"}}>Cancelled Appointments</text>

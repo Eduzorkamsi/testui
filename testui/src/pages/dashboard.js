@@ -15,8 +15,7 @@ import DemoDualAxes2 from "../components/areachart2";
 // import AreaChart from "../components/AreaChart";
 
 const Dashboard = () => {
-  const { SubMenu } = Menu;
-  const { Header, Content, Sider } = Layout;
+  const { Content, Sider } = Layout;
 
   return (
     <Layout>
@@ -35,7 +34,7 @@ const Dashboard = () => {
           >
             <Menu.Item
               key="1"
-              icon={<img src={Manager} />}
+              icon={<img alt="" src={Manager} />}
               style={{
                 marginBottom: "21px",
                 backgroundColor: "#3B0049",
@@ -55,7 +54,7 @@ const Dashboard = () => {
             </Menu.Item>
             <Menu.Item
               key="2"
-              icon={<img src={DashIcon} />}
+              icon={<img alt="" src={DashIcon} />}
               style={{ backgroundColor: "#3B0049", color: "#ffffff" }}
             >
               Dashboard

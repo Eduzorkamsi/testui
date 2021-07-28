@@ -16,7 +16,7 @@ return(
     <div className="row">
     <Card style={{width: 500, height: 148}} className="income_summary1">
       <div className="top">
-        <img src={MoneyBag} />
+        <img alt="" src={MoneyBag} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>Revenue</text>
       </div>
       <text style={{marginTop:"19px", fontWeight:"bold"}}>₦90,000,000.00</text>
@@ -27,14 +27,14 @@ return(
       <div className="row">
       <div className="left_box">
       <div style={{marginTop: 32, marginRight: "70px"}} className="top">
-        <img src={Hmobills} />
+        <img alt="" src={Hmobills} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>HMO Bills</text>
       </div>
       <text style={{marginTop:"19px", fontWeight:"bold"}}>₦90,000,000.00</text>
       </div>
       <div className="right_box">
       <div style={{marginTop: 32,}} className="top">
-         <img src={Hmobills} />
+         <img alt="" src={Hmobills} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>Patient Bills</text>
       </div>
       <text style={{marginTop:"19px", fontWeight:"bold"}}>₦81,000,000.00</text>
@@ -50,14 +50,14 @@ return(
     <div className="row">
     <div style={{marginBottom: 50, marginRight: "123px"}} className="left_box">
       <div className="top">
-        <img src={MoneyBag} />
+        <img alt="" src={MoneyBag} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>Cheque</text>
       </div>
       <text style={{marginTop:"19px", fontWeight:"bold"}}>₦90,000,000.00</text>
       </div>
       <div className="right_box">
       <div className="top">
-        <img src={Coins} />
+        <img alt="" src={Coins} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>Cash</text>
       </div>
       <text style={{marginTop:"19px", fontWeight:"bold"}}>₦100,000.00</text>
@@ -66,14 +66,14 @@ return(
       <div className="row">
       <div style={{ marginRight: "123px"}} className="down_left_box">
       <div className="top">
-      <img src={Transfer} />
+      <img alt="" src={Transfer} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>Transfer</text>
       </div>
       <text style={{marginTop:"19px", fontWeight:"bold"}}>₦50,000,000.00</text>
       </div>
       <div className="down_right_box">
       <div className="top">
-        <img src={Pos} />
+        <img alt="" src={Pos} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>Pos Payment</text>
       </div>
       <text style={{marginTop:"19px"}}></text>
@@ -85,14 +85,14 @@ return(
       <div style={{marginTop: 32,}} className="row">
     <div style={{ marginRight: "102px"}} className="left_box">
       <div  className="top">
-        <img src={AtmCard} />
+        <img alt="" src={AtmCard} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>Card</text>
       </div>
       <text style={{marginTop:"19px", fontWeight:"bold"}}>₦900,000.00</text>
       </div>
       <div className="right_box">
       <div className="top">
-        <img src={Wallet} />
+        <img alt="" src={Wallet} />
       <text style={{marginLeft:"10px", fontWeight:"bold"}}>Wallet</text>
       </div>
       <text style={{marginTop:"19px", fontWeight:"bold"}}>₦90,000.00</text>
